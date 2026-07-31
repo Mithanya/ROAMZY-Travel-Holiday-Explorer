@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TravelVista offers luxury travel experiences, curated destinations, premium stays and unforgettable journeys around the world.">
+  <meta name="keywords" content="luxury travel, travel destinations, vacation, beach holidays, city trips, mountain retreats, premium resorts, travel packages">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="TravelVista">
+  <meta name="theme-color" content="#050505">
+  <meta property="og:title" content="TravelVista | Luxury Travel Experience">
+  <meta property="og:description" content="Discover premium destinations, luxury resorts, and unforgettable journeys with TravelVista.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="canonical" href="./">
+  <title>TravelVista | Luxury Travel Experience</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar" aria-label="Primary navigation">
+      <div class="logo">
+        <a href="#home">Travel<span>Vista</span></a>
+      </div>
+
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#experiences">Experiences</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+      </ul>
+      <a class="nav-cta" href="#destinations">Start Planning</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="tag">PREMIUM LUXURY TRAVEL</p>
+        <h1>Discover The World<br>Beyond Imagination</h1>
+        <p class="hero-text">Explore breathtaking destinations, luxury stays and unforgettable journeys.</p>
+        <div class="search-box" role="search" aria-label="Search destinations">
+          <input type="text" id="searchInput" placeholder="Search destination..." aria-label="Search destination">
+          <button id="searchBtn" type="button">Explore</button>
+        </div>
+        <div class="hero-highlights">
+          <div>
+            <strong>24/7 luxury support</strong>
+            <span>Always on hand to tailor your itinerary.</span>
+          </div>
+          <div>
+            <strong>Curated premium stays</strong>
+            <span>Handpicked hotels and private villas.</span>
+          </div>
+          <div>
+            <strong>Trusted by travelers</strong>
+            <span>High-end journeys designed for excellence.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-section">
+      <div class="section-title">
+        <h2>Travel Designed for Exclusivity</h2>
+        <p>From curated itineraries to private transfers, every journey is tailored for discerning travelers who expect more.</p>
+      </div>
+      <div class="featured-grid">
+        <article class="featured-card featured-card--hero">
+          <span class="featured-card-badge">Luxury Access</span>
+          <div class="hero-inner">
+            <div class="hero-text">
+              <h3>Private Concierge</h3>
+              <p>Exclusive advisors handle every detail before, during and after your journey.</p>
+              <ul class="featured-list">
+                <li>White-glove planning for every moment</li>
+                <li>24/7 dedicated support</li>
+                <li>Insider access to private events</li>
+              </ul>
+              <div class="hero-ctas">
+                <button class="primary-btn contact-btn" type="button">Contact Concierge</button>
+                <button class="secondary-btn" type="button">Request Itinerary</button>
+              </div>
+            </div>
+            <aside class="hero-side">
+              <img src="assets/images/hero.png" alt="Concierge service" loading="lazy" class="concierge-img">
+              <ul class="hero-stats">
+                <li><strong>99%</strong><span>Client satisfaction</span></li>
+                <li><strong>1,200+</strong><span>VIP bookings</span></li>
+                <li><strong>24/7</strong><span>Support</span></li>
+              </ul>
+            </aside>
+          </div>
+        </article>
+        <div class="featured-stack">
+          <article class="featured-card featured-card--small">
+            <h3>Handpicked Stays</h3>
+            <p>Luxury resorts, villas and suites selected for comfort, style and privacy.</p>
+            <p class="featured-card-note">Each stay is carefully curated to reflect your personal taste and destination mood.</p>
+          </article>
+          <article class="featured-card featured-card--small">
+            <h3>Signature Experiences</h3>
+            <p>Bespoke cultural, wellness and adventure programs crafted for your pace.</p>
+            <p class="featured-card-note">Thoughtfully designed journeys that blend exclusivity, immersion and effortless comfort.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="destinations" id="destinations">
+      <div class="section-title">
+        <h2>Explore Destinations</h2>
+        <p>Discover the world’s most beautiful places with TravelVista’s curated selection of premium travel experiences.</p>
+      </div>
+      <div class="destinations-summary">
+        <div class="destination-stat">
+          <strong>12+</strong>
+          <span>signature escapes</span>
+        </div>
+        <div class="destination-stat">
+          <strong>24/7</strong>
+          <span>concierge service</span>
+        </div>
+        <div class="destination-stat">
+          <strong>100%</strong>
+          <span>tailored luxury</span>
+        </div>
+      </div>
+      <div class="gallery" id="gallery" aria-live="polite" aria-label="Destination gallery"></div>
+    </section>
+
+    <section class="extra-section experience-section" id="experiences">
+      <div class="section-title">
+        <h2>Luxury Experiences</h2>
+        <p>Explore premium services crafted for refined travelers seeking privacy, adventure and unmatched comfort.</p>
+      </div>
+      <div class="experience-grid">
+        <article class="experience-card">
+          <div class="experience-tag">Premium Stay</div>
+          <h3>Exclusive Villas</h3>
+          <p>Book private villas with dedicated concierge service, ocean views, and exceptional amenities.</p>
+          <ul>
+            <li>Private pools & beach access</li>
+            <li>In-villa dining</li>
+            <li>Personal concierge</li>
+          </ul>
+        </article>
+        <article class="experience-card">
+          <div class="experience-tag">Curated Journey</div>
+          <h3>Private Tours</h3>
+          <p>Discover cities and heritage sites with expert local guides and premium transport.</p>
+          <ul>
+            <li>Insider access</li>
+            <li>VIP reservations</li>
+            <li>Luxury transfers</li>
+          </ul>
+        </article>
+        <article class="experience-card">
+          <div class="experience-tag">Wellness & Adventure</div>
+          <h3>Regenerating Escapes</h3>
+          <p>Choose wellness retreats, mountain adventures, or spa journeys designed around your goals.</p>
+          <ul>
+            <li>Spa treatments</li>
+            <li>Guided excursions</li>
+            <li>Fitness & recovery</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="extra-section review-section" id="reviews">
+      <div class="section-title">
+        <h2>Traveler Reviews</h2>
+        <p>Trusted by families, executives and experience seekers who demand flawless travel planning.</p>
+      </div>
+      <div class="review-grid">
+        <article class="review-card">
+          <div class="review-rating">★★★★★</div>
+          <h3>Flawless luxury planning</h3>
+          <p>“TravelVista created the perfect anniversary trip. Every detail was flawless, and the villa exceeded our expectations.”</p>
+          <span>— Sofia L., Lifestyle Director</span>
+        </article>
+        <article class="review-card">
+          <div class="review-rating">★★★★★</div>
+          <h3>VIP city escape</h3>
+          <p>“Our private city tour was exceptional. The guide knew all the hidden gems, and the luxury hotel was incredible.”</p>
+          <span>— Marcus T., Executive Traveler</span>
+        </article>
+        <article class="review-card">
+          <div class="review-rating">★★★★★</div>
+          <h3>Wellness & adventure</h3>
+          <p>“From booking to departure, the VIP support made the whole vacation effortless. Highly recommended.”</p>
+          <span>— Aisha R., Travel Consultant</span>
+        </article>
+      </div>
+      <div class="review-form-block">
+        <h3>Share your own travel story</h3>
+        <form class="review-form" aria-label="Submit a travel review">
+          <div class="form-row">
+            <input type="text" id="reviewName" placeholder="Your Name" aria-label="Your Name" required>
+            <input type="email" id="reviewEmail" placeholder="Your Email" aria-label="Your Email" required>
+          </div>
+          <textarea id="reviewMessage" placeholder="What made this trip unforgettable?" aria-label="Review message" required></textarea>
+          <button type="submit">Share your experience</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div>
+        <span class="cta-pill">Bespoke Luxury Travel</span>
+        <h2>Ready to plan your next luxury escape?</h2>
+        <p>Request a bespoke itinerary and let TravelVista transform your travel expectations into unforgettable reality.</p>
+      </div>
+      <button class="cta-btn" type="button">
+        <span class="cta-btn-icon">✦</span>
+        Request a Quote
+      </button>
+    </section>
+  </main>
+
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalDescription">
+    <div class="modal-content">
+      <button class="close-btn" id="closeModal" aria-label="Close modal">×</button>
+      <img id="modalImage" src="" alt="Destination preview image">
+      <h2 id="modalTitle"></h2>
+      <p id="modalCountry" class="modal-country"></p>
+      <p id="modalDescription"></p>
+      <button class="book-btn" type="button">Book Journey</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 TravelVista | Designed & Developed by Mithanya</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

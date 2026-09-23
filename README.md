@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌍 ROAMZY — Travel Holiday Explorer
+# ROAMZY — Travel Holiday Explorer
 
 **A premium travel booking experience — curated tour packages, fixed-date group departures
 and a complete enquiry-to-booking flow, built with React + Vite.**
@@ -10,13 +10,13 @@ and a complete enquiry-to-booking flow, built with React + Vite.**
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES2020-f7df1e?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](#license)
 
-[Live Demo](#-demo) • [Features](#-features) • [Getting Started](#-getting-started) • [Project Structure](#-project-structure)
+[Demo](#-demo) • [Features](#-features) • [Getting Started](#-getting-started) • [Project Structure](#-project-structure)
 
 </div>
 
 ---
 
-## ✨ Overview
+## Overview
 
 ROAMZY is a fully responsive, production-ready travel website inspired by leading holiday
 operators. It combines a luxury editorial design system with the real functionality a travel
@@ -24,7 +24,7 @@ business needs: destination discovery, live search, dual-currency pricing, wishl
 departure listings, a trip planner with instant price estimates, and an end-to-end booking
 modal with checkout and confirmation states.
 
-## 🚀 Features
+## Features
 
 - **Premium responsive UI** — navy/gold brand system, Playfair Display + Manrope typography,
   fully adaptive layouts (desktop · tablet · mobile).
@@ -44,30 +44,30 @@ modal with checkout and confirmation states.
 - **Daily deals banner** — promotional offer section with coupon call-to-action.
 - **Testimonials & trust signals** — client reviews, accreditation pills and stat highlights.
 
-## 🖥️ Demo
+## Demo
 
 ```bash
 # Local development
 npm install
-npm run dev        # → http://localhost:5173
+npm run dev        # -> http://localhost:5173
 
 # Production preview
 npm run build
-npm run preview    # → http://localhost:4173
+npm run preview    # -> http://localhost:4173
 ```
 
-## 🧰 Tech Stack
+## Tech Stack
 
-| Layer      | Technology                                   |
-| ---------- | -------------------------------------------- |
-| Framework  | React 18.3 (function components + hooks)     |
-| Build tool | Vite 5.4                                     |
+| Layer      | Technology                                    |
+| ---------- | --------------------------------------------- |
+| Framework  | React 18.3 (function components + hooks)      |
+| Build tool | Vite 5.4                                      |
 | Styling    | Modern CSS — custom properties, Grid, Flexbox |
-| Typography | Playfair Display, Manrope (Google Fonts)     |
-| State      | Local React state (`useState`, `useMemo`)    |
-| Deployment | Any static host (Vercel, Netlify, GitHub Pages) |
+| Typography | Playfair Display, Manrope (Google Fonts)      |
+| State      | Local React state (`useState`, `useMemo`)     |
+| Deployment | Any static host (Vercel, Netlify, GH Pages)   |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Travel/
@@ -83,26 +83,26 @@ Travel/
 └── README.md
 ```
 
-## ⚙️ Available Scripts
+## Available Scripts
 
-| Command           | Description                             |
-| ----------------- | --------------------------------------- |
-| `npm run dev`     | Start dev server with hot reload        |
-| `npm run build`   | Create optimized production bundle      |
-| `npm run preview` | Serve the production build locally      |
+| Command           | Description                          |
+| ----------------- | ------------------------------------ |
+| `npm run dev`     | Start dev server with hot reload     |
+| `npm run build`   | Create optimized production bundle   |
+| `npm run preview` | Serve the production build locally   |
 
-## 🎨 Design System
+## Design System
 
-| Token        | Value     | Usage                        |
-| ------------ | --------- | ---------------------------- |
-| Navy         | `#1a2b48` | Headers, dark surfaces       |
-| Deep navy    | `#12203a` | Top bar, footer              |
-| Gold         | `#ffcc00` | Primary CTAs, accents        |
-| Crimson      | `#cc0033` | Eyebrows, urgency cues       |
-| Surface      | `#ffffff` / `#f5f7fa` | Cards & alternating bands |
-| Text / Muted | `#1c1c1c` / `#5e6d77` | Body copy            |
+| Token        | Value                      | Usage                        |
+| ------------ | -------------------------- | ---------------------------- |
+| Navy         | `#1a2b48`                  | Headers, dark surfaces       |
+| Deep navy    | `#12203a`                  | Top bar, footer              |
+| Gold         | `#ffcc00`                  | Primary CTAs, accents        |
+| Crimson      | `#cc0033`                  | Eyebrows, urgency cues       |
+| Surface      | `#ffffff` / `#f5f7fa`      | Cards & alternating bands    |
+| Text / Muted | `#1c1c1c` / `#5e6d77`      | Body copy                    |
 
-## 📈 Roadmap
+## Roadmap
 
 - [ ] Backend API for enquiries and bookings
 - [ ] User accounts with saved wishlists
@@ -111,12 +111,12 @@ Travel/
 - [ ] Blog / travel guides module
 - [ ] Automated image optimization (WebP/AVIF)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome. Fork the repository, create a feature branch and open a pull request.
 Please keep the existing component structure and design tokens consistent.
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for details.
 
@@ -124,7 +124,7 @@ Distributed under the MIT License. See `LICENSE` for details.
 
 <div align="center">
 
-**Made with ❤️ for travellers everywhere**
+**Made for travellers everywhere**
 
 [ROAMZY](https://github.com/Mithanya/ROAMZY-Travel-Holiday-Explorer)
 
